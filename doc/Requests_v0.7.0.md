@@ -1,4 +1,4 @@
-## Requests v0.7.0 源码阅读
+ * Requests v0.7.0 源码阅读
 
 ### 0X00 前言
 
@@ -14,7 +14,7 @@
 0.7.0 (2011-10-22)
 ++++++++++++++++++
 
-* Sessions are now the primary interface.
+# Sessions are now the primary interface.
 * Deprecated InvalidMethodException.
 * PATCH fix.
 * New config system (no more global settings).
@@ -581,3 +581,4 @@ def request(method, url,
 
 
 
+ 
